@@ -44,14 +44,6 @@ const stop = () => {
   }, 5000); 
 };
 
-function alertFunction() {
-  alert('you just got gnomed moron');
-  return;
-}
-
-for(var i = 0; i < 1; i++) {
-  alertFunction();
-}
 start();
 stop();
 
